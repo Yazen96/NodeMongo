@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
     });
 
 mongoose.
-connect('mongodb+srv://Yazen:Yazen123@pokemondatabase.bobmq.mongodb.net/Products-API?retryWrites=true&w=majority&appName=PokemonDataBase')
+connect('mongodb+srv://Yazen:*****@pokemondatabase.bobmq.mongodb.net/Products-API?retryWrites=true&w=majority&appName=PokemonDataBase')
 .then(() => {
     console.log('Connected to the PokemonDataBase!');
     app.listen(3000, () => {
